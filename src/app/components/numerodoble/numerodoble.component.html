@@ -1,5 +1,11 @@
 <div>
     <h1>Parametros Routing</h1>
+    <button (click)="redirect(66)">
+        Doble 66
+    </button>
+    <button (click)="redirect(23)">
+        Doble 23
+    </button>
     <div *ngIf="numero">
         <h1 style="color: blue;">
             El doble de {{numero}} es

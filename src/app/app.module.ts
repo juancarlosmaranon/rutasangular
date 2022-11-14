@@ -11,6 +11,8 @@ import { TelevisionComponent } from './components/television/television.componen
 import { MenuComponent } from './components/menu/menu.component';
 import { Error404Component } from './components/error404/error404.component';
 import { NumerodobleComponent } from './components/numerodoble/numerodoble.component';
+import { MenucollatzComponent } from './components/menucollatz/menucollatz.component';
+import { CollatzComponent } from './components/collatz/collatz.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { NumerodobleComponent } from './components/numerodoble/numerodoble.compo
     TelevisionComponent,
     MenuComponent,
     Error404Component,
-    NumerodobleComponent
+    NumerodobleComponent,
+    MenucollatzComponent,
+    CollatzComponent
   ],
   imports: [
     BrowserModule, routing
